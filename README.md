@@ -9,7 +9,15 @@ For windows, run this in Powershell
 ```
 irm https://claude.ai/install.ps1 | iex
 ```
-
+To Add the path:
+Windows key + R
+Type ```sysdm.cpl```
+Advanced Tab
+Environment Variables (Bottom)
+Click on path and Edit
+Add the path from the terminal up to the bin
+should be like ```C:\Users\marc.semadeni\.local\bin```
+Click okay and work on a new terminal
 Once installed, you can use ```claude``` in any terminal to start logging in (Need Pro)
 
 ## Project Context
